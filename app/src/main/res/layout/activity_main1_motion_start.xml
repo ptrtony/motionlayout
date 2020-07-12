@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.489"
+
+        android:src="@mipmap/technology"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        android:text="衛生防護中心公布，本港今日（4日）新增11宗新型冠狀病毒確診個案，其中一人是獲豁免強制檢疫的54歲貨機機師，潛伏期內曾到哈薩克及土耳其。他現時沒有病徵，周二（6月30日）返港後接受醫學監測，昨（3日）到尖沙嘴亞太中心6樓向卓健醫療中心醫生李樂軒求醫，今日確診後送往瑪嘉烈醫院治理。至今本港累計1258宗確診個案和一宗疑似個案。  該香港貨運航空（Hong Kong Air Cargo）外籍機師曾於6月25日起咳嗽，病徵數日後消退。他居於東涌昇薈第10座，其妻子及女兒無病徵，已被安排接受檢疫。衛生署回覆查詢表示，正調查有多少名機組人員曾與染疫機師同機。  另外10宗新增個案，分別由菲律賓、印尼、巴基斯坦、美國及埃及輸入，病人年齡介乎28至62歲，其中一名29歲女子由菲律賓返港後，在上環CM+壹棠酒店及服務式公寓接受家居檢疫期間，於周三（1日）發燒、咳和喉嚨痛。另外兩名由菲律賓人返港的女病人，分別在尖沙嘴柯士甸道西1號漾日居2座，以及香港銅鑼灣利景酒店接受家居檢疫。其餘病人分別由檢疫中心、供抵港者入住等候病毒檢測結果的富豪東方酒店，或亞博館送院。香港旅遊促進會與業界十多名代表今早（4日）11時半到政府總部外請願，要求政府盡快落實港版「健康碼」及適度通關。有旅行社東主指出，去年12月開始轉到口罩工廠從事搬運工作，身邊的旅遊從業員「10個有8個都待業」；亦有東主到檢疫中心為進出者量體溫。  香港旅遊促進會總幹事崔定邦表示，本港旅遊業停運近一年，令旅遊業失業率高，從業員「手停口停」。他續說，澳門、深圳及大灣區等地新型冠狀病毒疫情受控，希望政府可以開放這些地區的人來往兩地，適度恢復通關。他又指出，政府應落實港版「健康碼」，令酒店、旅遊及零售業逐步恢復，「要踏出第一步先有盼望」。  民建聯立法會議員鄭泳舜促請政府下周公布港版「健康碼」細節，以及要求政府在第三輪防疫抗疫基金中撥出更多資金支援旅遊業。"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/title_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_layout_bg"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tv_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="20dp"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

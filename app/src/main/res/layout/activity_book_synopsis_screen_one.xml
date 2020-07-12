@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/motionLayout"
+    app:layoutDescription="@xml/activity_book_synopsis_screen_one_scene">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/mSynopsisCardView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:cardBackgroundColor="@color/teal_700"
+        app:cardCornerRadius="16dp" />
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/mContainerLl"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:background="@color/teal_700">-->
+<!--        <TextView-->
+<!--            android:id="@+id/bookSynopsisTitle"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="16sp"-->
+<!--            android:text="Liquidity–Background "-->
+<!--            android:textStyle="bold"/>-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/bookSynopsisText"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="12sp"-->
+<!--            android:text="In this chapter, the concepts of liquidity and liquidity risk are brought into the picture and an overview given of the various liquidity concepts. It establishes that liquidity risk is the risk of being unable to meet obligations as they become due and payable or only being able to do so at an unsustainable cost. "-->
+<!--            android:padding="10dp"/>-->
+<!--    </LinearLayout>-->
+
+
+    <TextView
+        android:id="@+id/bookType"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="16dp"
+        android:elevation="8dp"
+        android:text="normal novel"
+        android:textSize="12sp"
+        android:translationY="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bookCover"
+        app:layout_constraintTop_toTopOf="@+id/bookCover"/>
+    <ImageView
+        android:id="@+id/bookCover"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:elevation="4dp"
+        android:outlineProvider="bounds"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@mipmap/icon_music_face" />
+</androidx.constraintlayout.motion.widget.MotionLayout>
