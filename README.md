@@ -1,0 +1,4 @@
+# motionlayout
+motionlayout是去年google推出的在xml布局中就可以实现动画效果的布局，它继承于ConstrainLayout 也就是约束布局，它只能在Android4.0版本以上才能使用，而且androidstudio4.0以上推出了motion editor编译器，可以说
+google对 motionlayout是花了很多时间和精力去研发motionlayout的相关的功能的，而且motionlayout可以使我们的app能够更加的炫酷，给用户的体验会更加的nice，这个项目也会在加入到更多的motionlayout实战
+这个项目的目的也是学习motionlayout更多的特性的项目
